@@ -90,6 +90,8 @@ class _PostListState extends State<PostList> {
               child: TextFormField(
                   controller: textEditingController,
                   decoration: InputDecoration(
+                    fillColor:Colors.white,
+                    filled: true,
                       suffixIcon: IconButton(
                           onPressed: () {
                             textEditingController.clear();
